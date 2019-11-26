@@ -15,7 +15,7 @@ class MovieDetails extends React.Component{
             }
         }).then(response => response.json())
             .then(movies => this.setState({
-                    
+
             }))
     }
 
